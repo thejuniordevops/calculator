@@ -14,9 +14,8 @@ const styles = StyleSheet.create({
     fontSize: 72,
     fontWeight: "300",
     padding: Platform.OS === "ios" ? 50 : 4,
-    alignSelf: "flex-end",
-    
-  }, 
+    alignSelf: "flex-end"
+  },
   text: {
     color: "#000000",
     fontSize: 30,
@@ -32,15 +31,15 @@ const styles = StyleSheet.create({
     alignItems: "center",
     width: "22%",
     margin: "1%",
-    borderRadius:10
+    borderRadius: 10
   },
   box2: {
-    fontSize:50,
+    fontSize: 50,
     alignItems: "center",
     width: "100%",
     height: "15%",
     marginBottom: "42%",
-    borderRadius:10
+    borderRadius: 10
   },
   controls: {
     flex: 1,
@@ -62,7 +61,7 @@ const styles = StyleSheet.create({
   },
   gray: {
     backgroundColor: "#C2C5CC"
-  },  
+  }
 });
 
 export default styles;
